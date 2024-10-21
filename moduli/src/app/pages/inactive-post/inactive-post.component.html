@@ -1,0 +1,7 @@
+<div *ngIf="posts.length > 0" class="container">
+  <div class="row row-cols-4 g-1">
+    <div *ngFor="let post of posts" class="col">
+      <app-card [post]="post"></app-card>
+    </div>
+  </div>
+</div>
