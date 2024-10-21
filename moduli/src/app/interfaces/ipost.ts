@@ -6,5 +6,6 @@ export interface iPost {
   description: string;
   image: string;
   active: boolean;
-  user: iUser;
+  userId: number;
+  userName: string;
 }

@@ -16,10 +16,8 @@ export class PostService {
         'Scopri la bellezza delle Dolomiti con escursioni mozzafiato e panorami indimenticabili.',
       image: 'https://images.pexels.com/photos/414171/pexels-photo-414171.jpeg',
       active: true,
-      user: {
-        id: 1,
-        name: 'Marco Rossi',
-      },
+      userId: 1,
+      userName: 'Marco Rossi',
     },
     {
       id: 2,
@@ -29,10 +27,8 @@ export class PostService {
       image:
         'https://images.pexels.com/photos/1533723/pexels-photo-1533723.jpeg',
       active: true,
-      user: {
-        id: 2,
-        name: 'Luca Bianchi',
-      },
+      userId: 2,
+      userName: 'Luca Bianchi',
     },
     {
       id: 3,
@@ -42,10 +38,8 @@ export class PostService {
       image:
         'https://images.pexels.com/photos/1177959/pexels-photo-1177959.jpeg',
       active: true,
-      user: {
-        id: 3,
-        name: 'Giulia Verdi',
-      },
+      userId: 3,
+      userName: 'Giulia Verdi',
     },
     {
       id: 4,
@@ -55,10 +49,8 @@ export class PostService {
       image:
         'https://images.pexels.com/photos/3566891/pexels-photo-3566891.jpeg',
       active: false,
-      user: {
-        id: 1,
-        name: 'Marco Rossi',
-      },
+      userId: 1,
+      userName: 'Marco Rossi',
     },
     {
       id: 5,
@@ -68,10 +60,8 @@ export class PostService {
       image:
         'https://images.pexels.com/photos/1089934/pexels-photo-1089934.jpeg',
       active: true,
-      user: {
-        id: 2,
-        name: 'Luca Bianchi',
-      },
+      userId: 2,
+      userName: 'Luca Bianchi',
     },
     {
       id: 6,
@@ -81,10 +71,8 @@ export class PostService {
       image:
         'https://images.pexels.com/photos/1933239/pexels-photo-1933239.jpeg',
       active: true,
-      user: {
-        id: 3,
-        name: 'Giulia Verdi',
-      },
+      userId: 3,
+      userName: 'Giulia Verdi',
     },
     {
       id: 7,
@@ -94,10 +82,8 @@ export class PostService {
       image:
         'https://images.pexels.com/photos/1010659/pexels-photo-1010659.jpeg',
       active: false,
-      user: {
-        id: 4,
-        name: 'Alessandro Gallo',
-      },
+      userId: 4,
+      userName: 'Alessandro Gallo',
     },
     {
       id: 8,
@@ -107,10 +93,8 @@ export class PostService {
       image:
         'https://images.pexels.com/photos/1641289/pexels-photo-1641289.jpeg',
       active: true,
-      user: {
-        id: 1,
-        name: 'Marco Rossi',
-      },
+      userId: 1,
+      userName: 'Marco Rossi',
     },
     {
       id: 9,
@@ -120,10 +104,8 @@ export class PostService {
       image:
         'https://images.pexels.com/photos/1173777/pexels-photo-1173777.jpeg',
       active: true,
-      user: {
-        id: 2,
-        name: 'Luca Bianchi',
-      },
+      userId: 2,
+      userName: 'Luca Bianchi',
     },
     {
       id: 10,
@@ -133,10 +115,8 @@ export class PostService {
       image:
         'https://images.pexels.com/photos/2230800/pexels-photo-2230800.jpeg',
       active: false,
-      user: {
-        id: 3,
-        name: 'Giulia Verdi',
-      },
+      userId: 3,
+      userName: 'Giulia Verdi',
     },
     {
       id: 11,
@@ -145,10 +125,8 @@ export class PostService {
         'Naviga tra i magnifici fiordi norvegesi e goditi panorami mozzafiato.',
       image: 'https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg',
       active: true,
-      user: {
-        id: 4,
-        name: 'Alessandro Gallo',
-      },
+      userId: 4,
+      userName: 'Alessandro Gallo',
     },
     {
       id: 12,
@@ -158,10 +136,8 @@ export class PostService {
       image:
         'https://images.pexels.com/photos/2580371/pexels-photo-2580371.jpeg',
       active: true,
-      user: {
-        id: 1,
-        name: 'Marco Rossi',
-      },
+      userId: 1,
+      userName: 'Marco Rossi',
     },
     {
       id: 13,
@@ -171,10 +147,8 @@ export class PostService {
       image:
         'https://images.pexels.com/photos/1560975/pexels-photo-1560975.jpeg',
       active: true,
-      user: {
-        id: 2,
-        name: 'Luca Bianchi',
-      },
+      userId: 2,
+      userName: 'Luca Bianchi',
     },
     {
       id: 14,
@@ -184,10 +158,8 @@ export class PostService {
       image:
         'https://images.pexels.com/photos/3385099/pexels-photo-3385099.jpeg',
       active: false,
-      user: {
-        id: 3,
-        name: 'Giulia Verdi',
-      },
+      userId: 3,
+      userName: 'Giulia Verdi',
     },
     {
       id: 15,
@@ -197,10 +169,8 @@ export class PostService {
       image:
         'https://images.pexels.com/photos/7034209/pexels-photo-7034209.jpeg',
       active: true,
-      user: {
-        id: 4,
-        name: 'Alessandro Gallo',
-      },
+      userId: 4,
+      userName: 'Alessandro Gallo',
     },
     {
       id: 16,
@@ -209,10 +179,8 @@ export class PostService {
         'Scopri la bellezza delle Montagne Rocciose in Canada tra laghi e foreste.',
       image: 'https://images.pexels.com/photos/673909/pexels-photo-673909.jpeg',
       active: true,
-      user: {
-        id: 1,
-        name: 'Marco Rossi',
-      },
+      userId: 1,
+      userName: 'Marco Rossi',
     },
     {
       id: 17,
@@ -221,10 +189,8 @@ export class PostService {
         'Scopri i magnifici templi di Angkor Wat e la loro storia millenaria.',
       image: 'https://images.pexels.com/photos/221321/pexels-photo-221321.jpeg',
       active: true,
-      user: {
-        id: 2,
-        name: 'Luca Bianchi',
-      },
+      userId: 2,
+      userName: 'Luca Bianchi',
     },
     {
       id: 18,
@@ -234,10 +200,8 @@ export class PostService {
       image:
         'https://images.pexels.com/photos/3716115/pexels-photo-3716115.jpeg',
       active: false,
-      user: {
-        id: 3,
-        name: 'Giulia Verdi',
-      },
+      userId: 3,
+      userName: 'Giulia Verdi',
     },
     {
       id: 19,
@@ -247,10 +211,8 @@ export class PostService {
       image:
         'https://images.pexels.com/photos/3570845/pexels-photo-3570845.jpeg',
       active: true,
-      user: {
-        id: 4,
-        name: 'Alessandro Gallo',
-      },
+      userId: 4,
+      userName: 'Alessandro Gallo',
     },
     {
       id: 20,
@@ -260,10 +222,8 @@ export class PostService {
       image:
         'https://images.pexels.com/photos/4606710/pexels-photo-4606710.jpeg',
       active: true,
-      user: {
-        id: 1,
-        name: 'Marco Rossi',
-      },
+      userId: 1,
+      userName: 'Marco Rossi',
     },
     {
       id: 21,
@@ -273,10 +233,8 @@ export class PostService {
       image:
         'https://images.pexels.com/photos/1603031/pexels-photo-1603031.jpeg',
       active: true,
-      user: {
-        id: 2,
-        name: 'Luca Bianchi',
-      },
+      userId: 2,
+      userName: 'Luca Bianchi',
     },
     {
       id: 22,
@@ -286,10 +244,8 @@ export class PostService {
       image:
         'https://images.pexels.com/photos/1834118/pexels-photo-1834118.jpeg',
       active: false,
-      user: {
-        id: 3,
-        name: 'Giulia Verdi',
-      },
+      userId: 3,
+      userName: 'Giulia Verdi',
     },
     {
       id: 23,
@@ -299,10 +255,8 @@ export class PostService {
       image:
         'https://images.pexels.com/photos/6793541/pexels-photo-6793541.jpeg',
       active: true,
-      user: {
-        id: 4,
-        name: 'Alessandro Gallo',
-      },
+      userId: 4,
+      userName: 'Alessandro Gallo',
     },
     {
       id: 24,
@@ -312,10 +266,8 @@ export class PostService {
       image:
         'https://images.pexels.com/photos/1377572/pexels-photo-1377572.jpeg',
       active: true,
-      user: {
-        id: 1,
-        name: 'Marco Rossi',
-      },
+      userId: 1,
+      userName: 'Marco Rossi',
     },
     {
       id: 25,
@@ -325,10 +277,8 @@ export class PostService {
       image:
         'https://images.pexels.com/photos/4592184/pexels-photo-4592184.jpeg',
       active: true,
-      user: {
-        id: 2,
-        name: 'Luca Bianchi',
-      },
+      userId: 2,
+      userName: 'Luca Bianchi',
     },
     {
       id: 26,
@@ -337,10 +287,8 @@ export class PostService {
       image:
         'https://images.pexels.com/photos/1221150/pexels-photo-1221150.jpeg',
       active: false,
-      user: {
-        id: 3,
-        name: 'Giulia Verdi',
-      },
+      userId: 3,
+      userName: 'Giulia Verdi',
     },
     {
       id: 27,
@@ -350,10 +298,8 @@ export class PostService {
       image:
         'https://images.pexels.com/photos/1146642/pexels-photo-1146642.jpeg',
       active: true,
-      user: {
-        id: 4,
-        name: 'Alessandro Gallo',
-      },
+      userId: 4,
+      userName: 'Alessandro Gallo',
     },
     {
       id: 28,
@@ -362,10 +308,8 @@ export class PostService {
       image:
         'https://images.pexels.com/photos/3319892/pexels-photo-3319892.jpeg',
       active: true,
-      user: {
-        id: 1,
-        name: 'Marco Rossi',
-      },
+      userId: 1,
+      userName: 'Marco Rossi',
     },
     {
       id: 29,
@@ -374,10 +318,8 @@ export class PostService {
       image:
         'https://images.pexels.com/photos/4601559/pexels-photo-4601559.jpeg',
       active: true,
-      user: {
-        id: 2,
-        name: 'Luca Bianchi',
-      },
+      userId: 2,
+      userName: 'Luca Bianchi',
     },
     {
       id: 30,
@@ -387,10 +329,8 @@ export class PostService {
       image:
         'https://images.pexels.com/photos/2360254/pexels-photo-2360254.jpeg',
       active: false,
-      user: {
-        id: 3,
-        name: 'Giulia Verdi',
-      },
+      userId: 3,
+      userName: 'Giulia Verdi',
     },
     {
       id: 31,
@@ -399,10 +339,8 @@ export class PostService {
         'Esplora le bellezze dei Balcani e la loro cultura vibrante.',
       image: 'https://images.pexels.com/photos/676777/pexels-photo-676777.jpeg',
       active: true,
-      user: {
-        id: 4,
-        name: 'Alessandro Gallo',
-      },
+      userId: 4,
+      userName: 'Alessandro Gallo',
     },
     {
       id: 32,
@@ -410,10 +348,8 @@ export class PostService {
       description: 'Scopri le meraviglie di Londra in un emozionante weekend.',
       image: 'https://images.pexels.com/photos/674013/pexels-photo-674013.jpeg',
       active: true,
-      user: {
-        id: 1,
-        name: 'Marco Rossi',
-      },
+      userId: 1,
+      userName: 'Marco Rossi',
     },
     {
       id: 33,
@@ -423,10 +359,8 @@ export class PostService {
       image:
         'https://images.pexels.com/photos/2681711/pexels-photo-2681711.jpeg',
       active: true,
-      user: {
-        id: 2,
-        name: 'Luca Bianchi',
-      },
+      userId: 2,
+      userName: 'Luca Bianchi',
     },
     {
       id: 34,
@@ -436,10 +370,8 @@ export class PostService {
       image:
         'https://images.pexels.com/photos/2202931/pexels-photo-2202931.jpeg',
       active: false,
-      user: {
-        id: 3,
-        name: 'Giulia Verdi',
-      },
+      userId: 3,
+      userName: 'Giulia Verdi',
     },
     {
       id: 35,
@@ -449,10 +381,8 @@ export class PostService {
       image:
         'https://images.pexels.com/photos/1491424/pexels-photo-1491424.jpeg',
       active: true,
-      user: {
-        id: 4,
-        name: 'Alessandro Gallo',
-      },
+      userId: 4,
+      userName: 'Alessandro Gallo',
     },
     {
       id: 36,
@@ -462,10 +392,8 @@ export class PostService {
       image:
         'https://images.pexels.com/photos/2261669/pexels-photo-2261669.jpeg',
       active: true,
-      user: {
-        id: 1,
-        name: 'Marco Rossi',
-      },
+      userId: 1,
+      userName: 'Marco Rossi',
     },
     {
       id: 37,
@@ -474,10 +402,8 @@ export class PostService {
       image:
         'https://images.pexels.com/photos/1625007/pexels-photo-1625007.jpeg',
       active: true,
-      user: {
-        id: 2,
-        name: 'Luca Bianchi',
-      },
+      userId: 2,
+      userName: 'Luca Bianchi',
     },
     {
       id: 38,
@@ -487,10 +413,8 @@ export class PostService {
       image:
         'https://images.pexels.com/photos/1322443/pexels-photo-1322443.jpeg',
       active: false,
-      user: {
-        id: 3,
-        name: 'Giulia Verdi',
-      },
+      userId: 3,
+      userName: 'Giulia Verdi',
     },
     {
       id: 39,
@@ -500,10 +424,8 @@ export class PostService {
       image:
         'https://images.pexels.com/photos/1261181/pexels-photo-1261181.jpeg',
       active: true,
-      user: {
-        id: 4,
-        name: 'Alessandro Gallo',
-      },
+      userId: 4,
+      userName: 'Alessandro Gallo',
     },
     {
       id: 40,
@@ -513,10 +435,8 @@ export class PostService {
       image:
         'https://images.pexels.com/photos/2251980/pexels-photo-2251980.jpeg',
       active: true,
-      user: {
-        id: 1,
-        name: 'Marco Rossi',
-      },
+      userId: 1,
+      userName: 'Marco Rossi',
     },
     {
       id: 41,
@@ -526,10 +446,8 @@ export class PostService {
       image:
         'https://images.pexels.com/photos/2747811/pexels-photo-2747811.jpeg',
       active: true,
-      user: {
-        id: 2,
-        name: 'Luca Bianchi',
-      },
+      userId: 2,
+      userName: 'Luca Bianchi',
     },
     {
       id: 42,
@@ -539,10 +457,8 @@ export class PostService {
       image:
         'https://images.pexels.com/photos/1391963/pexels-photo-1391963.jpeg',
       active: false,
-      user: {
-        id: 3,
-        name: 'Giulia Verdi',
-      },
+      userId: 3,
+      userName: 'Giulia Verdi',
     },
   ];
 

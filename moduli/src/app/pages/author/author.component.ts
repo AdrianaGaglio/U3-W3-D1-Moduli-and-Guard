@@ -12,9 +12,15 @@ export class AuthorComponent {
   constructor(private route: ActivatedRoute, private postSvc: PostService) {}
 
   posts!: iPost[];
+  id!: number;
 
   ngOnInit() {
-    let id = this.route.snapshot.params['id'];
-    this.posts = this.postSvc.posts.filter((post) => post.user.id === id);
+    this.route.params.subscribe((params) => {
+      this.id = params['id'];
+    });
+  }
+
+  ngDoCheck() {
+    console.log(this.id);
   }
 }

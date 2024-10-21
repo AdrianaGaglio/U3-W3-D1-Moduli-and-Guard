@@ -5,7 +5,7 @@
     <p>{{ post.description | truncate : 70 }}</p>
     <p>
       Autore:
-      <a [routerLink]="['/author', post.user.id]">{{ post.user.name }}</a>
+      <a [routerLink]="['/author', post.userId]">{{ post.userName }}</a>
     </p>
     <span
       [ngClass]="{ 'text-success': post.active, 'text-danger': !post.active }"
